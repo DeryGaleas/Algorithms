@@ -133,7 +133,7 @@ class DoubleLinkedList():
             prev_node = itr
             itr = itr.next
 
-    
+   
     def insert_after_value(self, value, data):
         length = self.get_length()
         itr= self.head
@@ -150,11 +150,7 @@ class DoubleLinkedList():
                 temp_node.prev = itr.next
                 return
             itr = itr.next
-                
-            
-
-        
-
+                     
     def print(self):
         itr = self.head
         values=""
