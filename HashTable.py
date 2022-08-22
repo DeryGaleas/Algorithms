@@ -22,8 +22,5 @@ class HashTable():
         self.array[h] = None
 
 
-lib = HashTable()
-
-lib["Siddharta"] = "196$"
-del lib["Siddharta"]
-print(lib["Siddharta"])
+if __name__ == '__main__':
+    pass
